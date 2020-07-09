@@ -41,8 +41,11 @@ body {
 
 @media screen and (max-width: 766px) {
     nav a.navbar-brand{
-    
+    position: sticky;
     left: 50%;
     transform: translateX(-50%);
+    }
+    .jumbotron{
+        text-align: center;
     }
   }
