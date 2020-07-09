@@ -38,3 +38,11 @@ body {
 .navbar-dark{
     background-color: #512da8;
 }
+
+@media screen and (max-width: 766px) {
+    nav a.navbar-brand{
+    
+    left: 50%;
+    transform: translateX(-50%);
+    }
+  }
