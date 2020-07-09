@@ -13,11 +13,19 @@
 </head>
 
 <body>
+    <div class="alert alert-warning alert-dismissible fade show mb-0" role="alert">
+        <h3 class="alert-heading text-dark">Notice to all customers!</h3>
+        <p class="text-dark">Due to covid-19,our restaurant has been closed in accordance to government guidelines.</p>
+        <hr>
+        <p class="mb-0 text-dark">Will keep you updated when we are ready to open again</p>
+        <button type="button" class="close" data-dismiss="alert" aria-label="close">
+            <span aria-hidden="true">&times</span>
+        </button>
+    </div>
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
-
             </button>
             <a class="navbar-brand mx-auto" href="#"><img src="./CSS/logo.png" width="41" height="30"></a>
             <div class="collapse navbar-collapse w-100" id="Navbar">
@@ -31,7 +39,7 @@
     </nav>
     <header class="jumbotron">
         <div class="container">
-            <div class="row row-header text-center">
+            <div class="row row-header">
                 <div class="col-12 col-sm-6">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
@@ -86,6 +94,56 @@
             </div>
         </div>
     </div>
+        <div class="row row-content justify-content-center">
+            <div class="col-12 col-md-10 col-lg-5">
+                <div class="card">
+                    <div class="card-header bg-warning">
+                        <h2 class="text-white">Reserve a Table</h2>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <fieldset class="form-group">
+                                <div class="row">
+                                    <legend class="col-form-label col-sm-2 pt-0"><strong>Number Of Guests</strong></legend>
+                                    <div class="col-sm-10">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="gridRadios1">1</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="gridRadios1">2</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="gridRadios1">3</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="gridRadios1">4</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="gridRadios1">5</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="form-group row">
+                                <label for="dateandtime" class="col-sm-2 col-form-label pt-0"><strong>Date and Time</strong></label>
+                                <div class="col-sm-4">
+                                  <input type="date" id="dateandtime" value="email@example.com">
+                                </div>
+                                <div class="col-sm-4">
+                                  <input type="time" id="dateandtime" value="email@example.com">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary offset-sm-2"><strong>Reserve</strong></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     <footer class="footer">
         <div class="container">
