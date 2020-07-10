@@ -20,7 +20,8 @@
 .jumbotron{
     padding: 70px 30px;
     margin:0px auto;
-    background: #9575cd;
+    /*background: black;*/
+    background-image: url("./60f453bd1fe7d061e8fe4d766d830134.jpg");
     color: floralwhite;
 }
 
@@ -39,6 +40,14 @@ body {
     background-color: #512da8;
 }
 
+.tab-content{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+
+}
+
 @media screen and (max-width: 766px) {
     nav a.navbar-brand{
     position: sticky;
@@ -47,5 +56,7 @@ body {
     }
     .jumbotron{
         text-align: center;
+        background-image: url("./60f453bd1fe7d061e8fe4d766d830134.jpg");
+        background-size: 100% 100%;
     }
   }
