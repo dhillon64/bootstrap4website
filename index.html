@@ -147,7 +147,25 @@
                                   <input type="time" id="dateandtime" value="email@example.com">
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary offset-sm-2"><strong>Reserve</strong></button>
+                            <button type="button" class="btn btn-primary offset-sm-2" data-toggle="modal" data-target="#staticBackdrop"><strong>Reserve</strong></button>
+                            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="staticBackdropLabel">Success! Table booked!</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Looking forward to seeing you soon. Thank you
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                         </form>
                     </div>
                 </div>
