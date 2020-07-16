@@ -1,0 +1,134 @@
+.modal-header {
+  background-color: #512da8;
+  color: floralwhite;
+}
+
+.modal-header button {
+  color: floralwhite;
+}
+
+.modal-header button :hover {
+  color: floralwhite;
+}
+
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+.footer {
+  background-color: #d1c4e9;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+
+.jumbotron {
+  padding: 70px 30px;
+  margin: 0px auto;
+  /*-background: black;*/
+  background-image: url("./aboutuscoverpic.jpg");
+  background-size: contain;
+  color: floralwhite;
+  height: 300px;
+}
+
+.carousel-item .img-fluid {
+  width: 100%;
+  height: 100%;
+}
+
+.address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+
+body {
+  padding-top: 50px;
+  z-index: 0;
+}
+
+.navbar-dark {
+  background-color: #512da8;
+}
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.carousel-item {
+  height: 700px;
+}
+
+.carousel-item img {
+  height: 700px;
+}
+
+.carousel-caption {
+  font-family: 'IM Fell Great Primer', serif;
+  top: 50px;
+  bottom: auto;
+}
+
+#carouselButton {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 766px) {
+  nav a.navbar-brand {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .jumbotron {
+    text-align: center;
+    background-image: url("./aboutuscoverpic.jpg");
+    background-size: 100% 100%;
+  }
+  .carousel-item {
+    height: 550px;
+  }
+  .carousel-item img {
+    height: 550px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .carousel-caption h1 {
+    font-size: 100px;
+  }
+  .carousel-caption p {
+    font-size: xx-large;
+  }
+  .carousel-caption a {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .carousel-caption h1 {
+    font-size: 70px;
+  }
+  .carousel-caption p {
+    font-size: xx-large;
+  }
+  .carousel-caption a {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
