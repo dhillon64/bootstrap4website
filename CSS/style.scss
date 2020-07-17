@@ -44,7 +44,7 @@ $standard-border: 1px solid #ddd;
     padding: 70px 30px;
     margin:0px auto;
     /*-background: black;*/
-    background-image: url("./aboutuscoverpic.jpg");
+    background-image: url("../img/aboutuscoverpic.jpg");
     background-size: contain;
     color: floralwhite;
     height: 300px;
@@ -108,7 +108,7 @@ body {
     }
     .jumbotron{
         text-align: center;
-        background-image: url("./aboutuscoverpic.jpg");
+        background-image: url("../img/aboutuscoverpic.jpg");
         background-size: 100% 100%;
     }
     .carousel-item{
