@@ -75,7 +75,7 @@ body {
 }
 
 .carousel-caption {
-  font-family: 'IM Fell Great Primer', serif;
+  font-family: "IM Fell Great Primer", serif;
   top: 50px;
   bottom: auto;
 }
@@ -93,7 +93,7 @@ body {
     position: sticky;
     left: 50%;
     -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
   .jumbotron {
     text-align: center;
